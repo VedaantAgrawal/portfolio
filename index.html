@@ -471,23 +471,23 @@
           </span>
         </div>
         <p class="text-sm text-slate-400 mb-4 flex-grow">
-          Challenge: ran an A/B test across 50+ equities (ARIMA vs.
-          gradient-boosted forecasting), cutting RMSE 18% at p &lt; 0.05,
-          then served it through a Flask/FastAPI + PostgreSQL backend and a
-          React/Plotly dashboard — cutting API response time 57% (2.3s to
-          1s) at 99.9% uptime.
+          Challenge: walk-forward validated ARIMA vs. gradient-boosted
+          (XGBoost) forecasting across 59 equities — 33.6% RMSE improvement
+          at p ≈ 3×10⁻⁹ — then served it through a FastAPI + PostgreSQL
+          backend and a React/Plotly dashboard, deployed live with
+          sub-second API response times.
         </p>
         <div class="flex flex-wrap gap-2 mb-5">
-          <span class="tag">Flask / FastAPI</span>
+          <span class="tag">FastAPI</span>
           <span class="tag">PostgreSQL</span>
           <span class="tag">React / Plotly</span>
         </div>
         <div class="flex gap-4 mt-auto pt-4 border-t border-slate-800 text-sm">
-          <a href="#" class="flex items-center gap-1.5 text-slate-300 hover:text-emerald-400 transition">
+          <a href="https://github.com/VedaantAgrawal/EquiSight" target="_blank" rel="noopener" class="flex items-center gap-1.5 text-slate-300 hover:text-emerald-400 transition">
             <svg viewBox="0 0 16 16" class="w-4 h-4" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
             GitHub
           </a>
-          <a href="#" class="flex items-center gap-1.5 text-slate-300 hover:text-cyan-400 transition">
+          <a href="https://equisight.vedaantagrawal.com" target="_blank" rel="noopener" class="flex items-center gap-1.5 text-slate-300 hover:text-cyan-400 transition">
             <svg viewBox="0 0 24 24" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>
             Live Demo
           </a>
